@@ -1,0 +1,7 @@
+.TackBoard {
+    background-image: url(../../../public/assets/images/blackboard2.jpg);
+    background-size: cover;
+    border-style: solid;
+    border-width: 10px;
+    border-color: brown;
+}
