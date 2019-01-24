@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
 
-class TackBoard {
-render() {
+function TackBoard () {
+render() 
     return(
         <div>{children}</div>
         )
-    };
-}
+    
+};
 
 export default TackBoard;
