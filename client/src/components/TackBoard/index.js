@@ -4,12 +4,9 @@ import "./style.css";
 class TackBoard {
 render() {
     return(
-        <TackBoard>
-
-        </TackBoard>
-    )
-};
-
+        <div>{children}</div>
+        )
+    };
 }
 
 export default TackBoard;
