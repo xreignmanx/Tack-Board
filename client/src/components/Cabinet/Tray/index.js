@@ -1,14 +1,10 @@
 import React from 'react';
 import CreateMenu from '../CreateMenu';
 import TackMenu from '../TackMenu';
-
+import './style.css';
 
 function Tray(props) {
-    // const testData = props.testData;
-
-    // const aTags = testData.map((aTag) =>
-    //     <a>{aTag}</a>
-    //     )
+    
     return (
         <div className='container Tray'>
 
@@ -20,9 +16,7 @@ function Tray(props) {
                 
             />
         </div>
-        // <div>
-        //     {aTags}
-        // </div>
+     
     )
 };
 
