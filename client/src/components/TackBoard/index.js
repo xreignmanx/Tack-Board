@@ -21,9 +21,13 @@ function TackBoard () {
             <TackItem 
                     data={testData}            
             />
-            
 
-
+            <div class="jumbotron">      
+                <h1>LogIn</h1>
+                <p>Welcome! Please Login.</p>
+                <hr /><br />
+                <a href="/auth/google" class="btn btn-default">Google</a>
+            </div>                    
         </div>
         )
     

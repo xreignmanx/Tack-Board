@@ -10,4 +10,7 @@ router.use((req, res) =>
   res.sendFile(path.join(__dirname, "../client/build/index.html"))
 );
 
+router.get('/login', function(req,res,next) {
+  res.send('go back and register');
+})
 module.exports = router;
