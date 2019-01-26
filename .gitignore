@@ -10,7 +10,8 @@ yarn-debug.log*
 
 yarn-error.log*
 
-
+# google auth id
+_config.js
 
 # Runtime data
 

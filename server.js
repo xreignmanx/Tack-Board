@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+var session = require('express-session');
 
 // Require Mongoose
 const mongoose = require('mongoose');
@@ -9,6 +10,17 @@ const routes = require("./routes");
 
 const PORT = process.env.PORT || 3001;
 const app = express();
+
+
+//Required middleware:
+app.use(session({
+  secret: 'Shark Dad',
+  resave: true,
+  saveUninitialized: true
+}));
+app.use(passport.initialize());
+app.use(passport.session());
+
 
 // Configure body parsing for AJAX requests
 app.use(express.urlencoded({ extended: true }));
