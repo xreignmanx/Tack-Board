@@ -1,6 +1,6 @@
 import React from 'react';
-import CreateMenu from '../CreateMenu';
-import TackMenu from '../TackMenu';
+import CreateMenu from './CreateMenu';
+import TackMenu from './TackMenu';
 import './style.css';
 
 function Tray(props) {
