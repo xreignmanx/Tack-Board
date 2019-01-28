@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import TackItem from './TackItem';
+import Login from './Login';
 
 const testData = [{
     id: '1',
@@ -21,13 +22,8 @@ function TackBoard () {
             <TackItem 
                     data={testData}            
             />
-
-            <div className="jumbotron">      
-                <h1>LogIn</h1>
-                <p>Welcome! Please Login.</p>
-                <hr /><br />
-                <a href="/auth/google" className="btn btn-default">Google</a>
-            </div>                    
+            <Login />
+                         
         </div>
         )
     
