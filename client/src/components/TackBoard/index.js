@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import TackItem from './TackItem';
+import Login from './Login';
 
 const testData = [{
     id: '1',
@@ -21,9 +22,8 @@ function TackBoard () {
             <TackItem 
                     data={testData}            
             />
-            
-
-
+            <Login />
+                         
         </div>
         )
     

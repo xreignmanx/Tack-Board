@@ -4,7 +4,7 @@ function TackMenu(props ) {
 
     const ourData = props.data.data;
     return (
-        <div class="btn-group dropup">
+        <div className="btn-group dropup">
             <a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 TackList
             </a>
@@ -12,9 +12,9 @@ function TackMenu(props ) {
             <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 {ourData.map(element => {
                     return (<a
-                             id="{element.id}"
+                             key={element.id}
                              className="dropdown-item"
-                             href='{element.tacklink}'>
+                             href={element.tacklink}>
                              {element.text}
                             </a>
                     )
