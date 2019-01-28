@@ -22,11 +22,11 @@ function TackBoard () {
                     data={testData}            
             />
 
-            <div class="jumbotron">      
+            <div className="jumbotron">      
                 <h1>LogIn</h1>
                 <p>Welcome! Please Login.</p>
                 <hr /><br />
-                <a href="/auth/google" class="btn btn-default">Google</a>
+                <a href="/auth/google" className="btn btn-default">Google</a>
             </div>                    
         </div>
         )

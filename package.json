@@ -25,6 +25,7 @@
     "if-env": "^1.0.4",
     "mongoose": "^5.4.6",
     "passport": "^0.3.0",
+    "passport-google-oauth2": "^0.1.6",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   }
