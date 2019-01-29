@@ -1,11 +1,11 @@
 import React from 'react';
-import 'style.css';
+import './style.css';
 
 function Login() {
     return (
         <div className="jumbotron">      
-            <h1>LogIn</h1>
-            <p>Welcome! Please Login.</p>
+            <h1>WELCOME</h1>
+            <p>Please Login</p>
             <hr /><br />
             <a href="/auth/google" className="btn btn-default">Google</a>
         </div>   
