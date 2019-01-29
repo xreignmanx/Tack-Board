@@ -1,0 +1,10 @@
+.navbar-expand-lg {
+        font-family: 'Cinzel', serif;
+        background-color: grey;
+        border-style: outset;
+        border-width: 5px;
+        border-color: brown;
+        font-size: 64px;
+        color: brown;
+
+    }

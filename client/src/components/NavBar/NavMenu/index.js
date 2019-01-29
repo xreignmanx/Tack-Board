@@ -1,9 +1,9 @@
 import React from 'react';
-// import 'style.css';
+import './style.css';
 
 function NavMenu () {
     return (
-        <div id='navmenu' className="navbar navbar-expand-lg navbar-light bg-light">
+        <div id='navmenu' className="navbar navbar-expand-lg">
                 <a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     USER_NAME_GOES_HERE
                 </a>
