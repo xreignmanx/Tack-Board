@@ -1,7 +1,7 @@
 import React from 'react';
-import { Redirect } from 'react-router-dom';
-import LoginForm from './LoginForm';
-import Auth from '../../../utils/Auth';
+// import { Redirect } from 'react-router-dom';
+// import LoginForm from './LoginForm';
+// import Auth from '../../../utils/Auth';
 
 // import 'style.css';
 

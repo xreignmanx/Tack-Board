@@ -2,13 +2,13 @@ const express = require("express");
 const path = require("path");
 var session = require('express-session');
 var passport = require('passport');
-var Strategy = require('passport-local').Strategy;
+var LocalStrategy = require('passport-local').Strategy;
 const mongoose = require('mongoose');
 var logger = require('morgan');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const routes = require("./routes");
-
+var flash = require('connect-flash');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
