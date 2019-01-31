@@ -1,23 +1,18 @@
 import React, { Component } from "react";
-import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from './components/NavBar';
-import Cabinet from './components/Cabinet';
-import TackBoard from './components/TackBoard';
-
+import landing from './pages/landing';
 class App extends Component {
   render() {
     return (
-      <div>
-      <NavBar />
-      <TackBoard>
-
-        Shoop da whoop!
-      </TackBoard>
-
-      <Cabinet>
-
-      </Cabinet>
-      </div>
+      <Router>
+        <>
+        <NavBar />
+        <Switch>
+            <Route exact path="/" component={landing} />
+        </Switch>
+        </>
+      </Router>
     );
   }
 }

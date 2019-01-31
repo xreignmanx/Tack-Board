@@ -1,16 +1,18 @@
 const router = require("express").Router();
 const userController = require("../../controllers/userController");
+const passport = require('passport');
 
-// Matches with "/api/users"
 router.route("/")
-  .get(userController.findAll)
-  .post(userController.create);
+  .get(userController.getUser);
 
-// Matches with "/api/users/:id"
-router
-  .route("/:id")
-  .get(userController.findById)
-  .put(userController.update)
-  .delete(userController.remove);
+router.route('/register')
+  .post(userController.register);
+
+router.get('/login')
+  .post(passport.authenticate('local', {failureRedirect: '/?error=LoginError'}), userController.login); 
+
+router.route('/ping')
+  .get(userController.test);
+
 
 module.exports = router;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import TackItem from './TackItem';
+import TackItem from '../TackItem';
 import Login from './Login';
 
 const testData = [{
