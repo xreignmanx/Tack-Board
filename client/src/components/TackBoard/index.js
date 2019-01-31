@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import TackItem from './TackItem';
-import Login from './Login';
 
 const testData = [{
     id: '1',
@@ -19,10 +18,10 @@ function TackBoard () {
         
     return(
         <div>
-            <TackItem 
+            {/* <TackItem 
                     data={testData}            
             />
-            <Login />
+            <Login /> */}
                          
         </div>
         )
