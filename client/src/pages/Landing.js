@@ -1,26 +1,18 @@
 import React from "react";
 import TackBoard from "../components/TackBoard";
-import Cabinet from "../components/Cabinet";
+import Footer from "../components/Footer";
 import Login from "../components/Login";
-import {Row, Container } from "../components/Grid";
-
-
-
 
 
 function Landing() {
     return (
-      <Container>
-        <Row>
+        <div>
             <TackBoard>
                 <Login></Login>
             </TackBoard>
-        </Row>
-        <Row>
-            <Cabinet />
-        </Row>
-           
-      </Container>
+            <Footer />
+
+        </div>   
     );
   };
 

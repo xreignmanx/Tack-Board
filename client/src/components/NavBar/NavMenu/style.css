@@ -6,5 +6,6 @@
         border-color: brown;
         font-size: 64px;
         color: brown;
+        justify-content: flex-start;
 
     }

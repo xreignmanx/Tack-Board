@@ -17,7 +17,7 @@ function TackBoard () {
 
         
     return(
-        <div>
+        <div className="board">
             {/* <TackItem 
                     data={testData}            
             />

@@ -6,7 +6,7 @@ function NavBar(props) {
     return (
         <header>
             <nav className='navbar fixed-top'>
-                <a className="logo" href='#'>TackBoard</a>
+                <a className="logo" href='/Lobby'>TackBoard</a>
                 <NavMenu />
             </nav>
         </header>

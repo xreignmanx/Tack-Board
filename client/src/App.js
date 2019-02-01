@@ -12,7 +12,7 @@ import Client from "./pages/Client";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="box">
         <NavBar />
         <Switch>
           <Route exact path="/" component={Landing} />
