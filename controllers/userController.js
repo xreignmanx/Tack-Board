@@ -1,4 +1,4 @@
-const db = require("../models");
+const Account = require("../models/account");
 const passport = require('passport');
 // Defining methods for the UserController
 module.exports = {
@@ -17,7 +17,7 @@ module.exports = {
   },
   register: function(req, res, next) {
     console.log('/register handler', req.body);
-    db.User.register(new User({ username: req.body.username }), req.body.password, (err, user) => {
+    Account.register(new User({ username: req.body.username }), req.body.password, (err, user) => {
       if(err) {
         return res.status(500).send({ error: err.message });
       }

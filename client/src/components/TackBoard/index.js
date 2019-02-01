@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import TackItem from '../TackItem';
+import TackForm from '../TackForm';
 import Login from '../Login';
 
 class TackBoard extends React.Component {
@@ -12,7 +13,7 @@ class TackBoard extends React.Component {
                 <TackItem 
                         data={{One: 'two'}}            
                 />
-                <Login />
+                <TackForm />
                             
             </div>
             )

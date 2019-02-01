@@ -41,10 +41,10 @@ app.use(function(req, res, next) {
 });
 
 /* === Server-Side Authentication w/passport.js on our Model === */
-const User = require('./models/userTable');
-passport.use(new LocalStrategy(User.authenticate()));
-passport.serializeUser(User.serializeUser());
-passport.deserializeUser(User.deserializeUser());
+const Account = require('./models/account');
+passport.use(new LocalStrategy(Account.authenticate()));
+passport.serializeUser(Account.serializeUser());
+passport.deserializeUser(Account.deserializeUser());
 
 // Configure body parsing for AJAX requests
 app.use(express.urlencoded({ extended: true }));

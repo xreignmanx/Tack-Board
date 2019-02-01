@@ -6,9 +6,17 @@ import React from 'react';
 // import 'style.css';
 
 class Login extends React.Component {
-    state = {
-        redirectToReferrer: false
+    constructor(){
+        super();
+        this.state = {
+            email: "",
+            password: "",
+            redirectToReferrer: false
+        };
+        // this.handleLoginSubmit = this.handleLoginSubmit.bind(this);
+        // this.handleChange = this.handleChange.bind(this);
     }
+
 
     login = (data) => {
         console.log("Logging in: " + data.username);
@@ -16,14 +24,16 @@ class Login extends React.Component {
 
         })
     }
+    
     render() {
     return (
         <div className="jumbotron">      
             <h1>LogIn</h1>
             <p>Welcome! Please Login.</p>
             <hr /><br />
-            <a href="/api/userRoutes/login/" className="btn btn-default">Login</a>
-            <a href="/api/userRoutes/register/" className="btn btn-default">Register</a>
+            <input
+                name="userName" />
+
         </div>   
     )
     }
