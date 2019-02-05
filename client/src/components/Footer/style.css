@@ -1,0 +1,9 @@
+.fixed-bottom {
+    font-family: 'Cinzel', serif;
+    background-color: brown;
+    border-style: solid;
+    border-width: 5px;
+    border-color: brown;
+    font-size: 64px;
+    height: 100px;
+}
