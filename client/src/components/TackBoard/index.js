@@ -1,21 +1,22 @@
 import React from "react";
 import "./style.css";
-import TackItem from './TackItem';
+import TackItem from '../TackItem';
+import TackForm from '../TackForm';
+import Login from '../Login';
 
-const testData = [{
-    id: '1',
-    tacklink: 'https://google.com',
-    text: `Text Search`
-},
-{
-    id: '2',
-    tacklink: 'https://amazon.com',
-    text: `Text Search 2`
-}]
 
-function TackBoard () {
-
-        
+class TackBoard extends React.Component {
+    render() 
+        {return(
+            <div>
+                <TackItem 
+                        data={{One: 'two'}}            
+                />
+                <TackForm />
+                            
+            </div>
+            )
+        }
     return(
         <div className="board">
             {/* <TackItem 

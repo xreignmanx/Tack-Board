@@ -5,8 +5,8 @@ import './style.css'
 function NavBar(props) {
     return (
         <header>
-            <nav className='navbar fixed-top'>
-                <a className="logo" href='/Lobby'>TackBoard</a>
+            <nav className='navbar fixed-top navbar-dark bg-dark'>
+                <a className="navbar-brand" href='/'>TackBoard</a>
                 <NavMenu />
             </nav>
         </header>
