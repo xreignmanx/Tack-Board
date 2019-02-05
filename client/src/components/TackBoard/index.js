@@ -6,8 +6,8 @@ import Login from '../Login';
 
 
 class TackBoard extends React.Component {
-    render() 
-        {return(
+    render() {
+        return (
             <div>
                 <TackItem 
                         data={{One: 'two'}}            
@@ -16,17 +16,8 @@ class TackBoard extends React.Component {
                             
             </div>
             )
-        }
-    return(
-        <div className="board">
-            {/* <TackItem 
-                    data={testData}            
-            />
-            <Login /> */}
-                         
-        </div>
-        )
-    
-}
+        };
+    }
+
 
 export default TackBoard;
