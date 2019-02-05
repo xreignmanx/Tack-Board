@@ -17,7 +17,7 @@ const testData = [{
 //This is the top of the component stack for our bottom navbar
 function Cabinet () {
     return (
-        <nav className="navbar fixed-bottom navbar-dark bg-dark">
+        <nav className="navbar fixed-bottom">
         {/* Tray holds our Tack menu, will eventually hold 
         both CreateMenu and TackMenu */}
         <Tray 

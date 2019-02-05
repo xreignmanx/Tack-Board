@@ -1,0 +1,15 @@
+.fixed-top {  
+        font-family: 'Cinzel', serif;
+        background-color: grey;
+        border-style: solid;
+        border-width: 5px;
+        border-color: brown;
+        font-size: 64px;
+        /* display: flex; */
+        height: 100px;
+    }
+    .logo {
+        font-size: 64px;
+        color: brown;
+        text-shadow: 2px 2px black
+    }    

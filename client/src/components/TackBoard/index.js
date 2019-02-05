@@ -4,9 +4,8 @@ import TackItem from '../TackItem';
 import TackForm from '../TackForm';
 import Login from '../Login';
 
-class TackBoard extends React.Component {
 
-        
+class TackBoard extends React.Component {
     render() 
         {return(
             <div>
@@ -18,6 +17,15 @@ class TackBoard extends React.Component {
             </div>
             )
         }
+    return(
+        <div className="board">
+            {/* <TackItem 
+                    data={testData}            
+            />
+            <Login /> */}
+                         
+        </div>
+        )
     
 }
 
