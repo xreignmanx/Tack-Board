@@ -1,14 +1,20 @@
 import React, { Component } from "react";
-import Log from '../components/Login';
+import NavLogo from '../components/NavLogo';
+import LoginForm from '../components/LoginForm';
+import Footer from '../components/Footer';
+
+// Create Login page with LoginForm to allow user to Login
 
 class Login extends Component {
-    state = {
-    
-    }
+
     render() {
         return (
-            <Log>
-            </Log>
+            <>
+            <NavLogo />
+            <LoginForm />
+            <Footer />
+            
+            </>
         )
     }
 };

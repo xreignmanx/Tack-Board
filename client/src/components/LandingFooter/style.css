@@ -1,0 +1,22 @@
+.landingFooter {
+    font-family: 'Cinzel', serif;
+    background-color: #6b2302;
+    border-width: 10px;
+    border-color: #6b2302;
+    text-align: center;
+    height: 15%;
+    align-content: center;
+    justify-content: center;
+    border-style: ridge;
+    display: flex;
+}
+
+.link {
+    font-size: 200%;
+    color: grey;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    color: white;
+}

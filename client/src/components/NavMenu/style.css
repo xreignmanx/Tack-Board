@@ -1,0 +1,8 @@
+.navMenu {
+        font-family: 'Cinzel', serif;
+        border-color: brown;
+        color: brown;
+        display: flex;
+        /* justify-content: center; */
+
+    }

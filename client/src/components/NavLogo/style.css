@@ -1,0 +1,27 @@
+.navlogo {  
+    font-family: 'Cinzel', serif;
+    background-color: brown;
+    border-width: 10px;
+    border-color: brown;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 15%;
+    border-style: ridge;
+    top: 0;
+}
+.logo {
+    font-size: 350%;
+    background-color: grey;
+    text-shadow: 1px 1px black;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: bolder;
+    border-width: 5px;
+    border-color: brown;
+    border-style: inset;
+    color: brown;
+    box-sizing: none;
+}

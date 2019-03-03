@@ -1,15 +1,23 @@
 import React from 'react';
-import NavMenu from './NavMenu';
+import NavMenu from '../NavMenu';
+import Logo from '../Logo';
 import './style.css'
 
 function NavBar(props) {
     return (
-        <header>
-            <nav className='navbar fixed-top navbar-dark bg-dark'>
-                <a className="logo" href='/'>TackBoard</a>
+        <div className="navbar">
+            <div class="col-sm-5">
+                {/* <div className="navbarLogo" href='/'>TackBoard</div> */}
+                <Logo />
+            </div>
+            <div class="col-sm-4"></div>
+            {/* <div class="col-sm-2"></div> */}
+            <div class="col-sm-3">
                 <NavMenu />
-            </nav>
-        </header>
+            </div>
+            {/* <div class="col-sm-1"></div> */}
+
+        </div>
     )
 
 }

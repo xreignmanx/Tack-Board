@@ -1,0 +1,18 @@
+.clientNav {  
+    font-family: 'Cinzel', serif;
+    background-color: brown;
+    border-width: 10px;
+    border-color: brown;
+    display: flex;
+    height: 15%;
+    border-style: ridge;
+    /* position: fixed; */
+    top: 0;
+
+}
+/* .logo {
+    font-size: 350%;
+    color: brown;
+    text-shadow: 2px 2px brown;
+    border-style: inset;
+}    */
