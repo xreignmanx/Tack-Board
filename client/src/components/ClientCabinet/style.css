@@ -1,0 +1,10 @@
+.clientCabinet {
+    font-family: 'Cinzel', serif;
+    background-color: brown;
+    border-width: 10px;
+    border-color: brown;
+    text-align: center;
+    height: 15%;
+    align-content: center;
+    border-style: ridge;
+}

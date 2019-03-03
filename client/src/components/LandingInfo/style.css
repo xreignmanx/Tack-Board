@@ -1,0 +1,27 @@
+.landingInfo {
+    font-family: 'Cinzel', serif;
+    height: 70%;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    border-style: solid;
+    border-width: 0 10px 0 10px;
+    border-color: brown;
+    border-style: ridge;
+    background-color: tan;
+}
+
+.welcome {
+    font-weight: bolder;
+}
+
+.infoSection {
+    display: flex;
+}
+
+.info {
+    font-size: 100%;
+}
+
+

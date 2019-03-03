@@ -1,0 +1,12 @@
+.dropdown-toggle {
+        font-family: 'Cinzel', serif;
+        background-color: grey;
+        border-style: outset;
+        border-width: 5px;
+        border-color: brown;
+        font-size: 16px;
+        color: brown;
+}
+.btn-secondary {
+        color: brown;
+}

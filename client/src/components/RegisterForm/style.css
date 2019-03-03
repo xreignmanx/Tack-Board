@@ -1,0 +1,13 @@
+.registerForm {
+        font-family: 'Cinzel', serif;
+        background-color: tan;
+        color: brown;
+        justify-content: center;
+        /* align-content: center;     */
+        display: flex;
+        height: 70%;
+        border-style: solid;
+        border-width: 0 10px 0 10px;
+        border-color: brown;
+        border-style: ridge;
+    }
