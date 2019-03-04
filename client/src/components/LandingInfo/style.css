@@ -12,16 +12,21 @@
     background-color: tan;
 }
 
-.welcome {
+
+
+/* .welcome {
     font-weight: bolder;
 }
 
 .infoSection {
     display: flex;
-}
+} */
 
 .info {
+    height: 100%;
     font-size: 100%;
+    align-content: center;
+    text-align: center;
 }
 
 
