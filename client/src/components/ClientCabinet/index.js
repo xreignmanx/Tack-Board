@@ -17,14 +17,12 @@ const testData = [{
 //This is the top of the component stack for our bottom navbar
 function ClientCabinet () {
     return (
-        <div className="ClientCabinet">
-        {/* Tray holds our Tack menu, will eventually hold 
-        both CreateMenu and TackMenu */}
-        <ClientTray 
-        data={testData}
-        />
-        </div>
-    )
+        <div className="clientCabinet">
+                <ClientTray 
+                    data={testData}
+                /></div>
+
+     )
 }
 
 export default ClientCabinet;

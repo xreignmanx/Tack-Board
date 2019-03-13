@@ -5,6 +5,9 @@
     border-color: brown;
     text-align: center;
     height: 15%;
-    align-content: center;
     border-style: ridge;
+    justify-content: center;
+    align-content: center;
+
+    
 }

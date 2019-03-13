@@ -1,0 +1,10 @@
+.taskTack {
+    background-size: cover;
+    border-style: solid;
+    border-width: 10px;
+    border-color: brown;
+    border-style: ridge;
+    background-color: tan;
+    display: flex;
+    flex-direction: row;
+}

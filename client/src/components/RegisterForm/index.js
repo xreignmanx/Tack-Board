@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './style.css'
 
 export default class RegisterForm extends React.Component {
@@ -29,12 +30,14 @@ export default class RegisterForm extends React.Component {
                                                 <label class="custom-control custom-checkbox">
                                                 <input type="checkbox" class="custom-control-input"></input>
                                                 <span class="custom-control-indicator"></span>
-                                                <span class="custom-control-description small text-dark">Remember me on this computer</span>
+                                                {/* <span class="custom-control-description small text-dark">Remember me on this computer</span> */}
                                                 </label>
                                             </div>
-                                            <button type="submit" style={{color: 'white',  borderRadius: 0,
-                                                backgroundColor: '#6b2302', borderColor: 'brown', borderWidth: '5px', borderStyle: 'ridge',
+                                            <Link to='/client'>
+                                                <button type="submit" style={{color: 'tan',  borderRadius: 0,
+                                                backgroundColor: '#6b2302', borderColor: '#6b2302', borderWidth: '5px', borderStyle: 'ridge',
                                                 fontWeight: 'bold'}}class="btn float-right" id="btnLogin">REGISTER</button>
+                                            </Link>
                                             </form>
                                         </div>
                                     </div>
