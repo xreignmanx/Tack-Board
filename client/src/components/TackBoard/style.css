@@ -5,8 +5,11 @@
     border-width: 10px;
     border-color: brown;
     border-style: ridge;
-    height: 70%;
+    min-height: 70%;
     background-color: tan;
+    display: flex;
+    /* overflow: scroll; overflow-x:hidden; */
+
 
 }
 /* .jumbotron {

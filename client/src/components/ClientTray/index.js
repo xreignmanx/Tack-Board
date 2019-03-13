@@ -5,7 +5,7 @@ import './style.css';
 function ClientTray(props) {
     
     return (
-        <div className='tray'>
+        <div className='clientTray'>
             <div class="col-sm-4"></div>
             <div class="col-sm-4"></div>
             <div class="col-sm-4">

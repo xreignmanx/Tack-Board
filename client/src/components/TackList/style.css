@@ -1,0 +1,19 @@
+.tackList {
+    font-family: 'Cinzel', serif;
+    border-style: solid;
+    border-width: 5px;
+    border-color: brown;
+    background-color: white;
+    border-style: ridge;
+    text-align: center;
+    width: 25%;
+    height: 40%;
+}
+
+.list {
+    border-width: 0 0 5px 0;
+    border-color: brown;
+    border-style: ridge;
+    background-color: brown;
+    color: tan;
+}

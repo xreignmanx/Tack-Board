@@ -6,9 +6,12 @@ import './style.css'
 function NavBar(props) {
     return (
         <div className="navbar">
+
             <div class="col-sm-5">
                 {/* <div className="navbarLogo" href='/'>TackBoard</div> */}
+                <div className="navbarLogo">
                 <Logo />
+                </div>
             </div>
             <div class="col-sm-4"></div>
             {/* <div class="col-sm-2"></div> */}

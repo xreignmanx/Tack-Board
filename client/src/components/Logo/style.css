@@ -1,31 +1,30 @@
 .logoDiv {
     height: 100%;
     width: 100%;
+    background-color: brown;
+    /* border-style: ridge;
+    border-color: brown;
+    border-width: 10px 10px 0 10px; */
+    padding: 0;
+    margin: 0;
 }
 
 .mainLogo {
     font-family: 'Cinzel', serif;
-    background-color: #6b2302;
-    border-style: ridge;
-    border-color: #6b2302;
-    border-width: 10px;
+
     font-weight: bolder;
     font-style: italic;
     text-shadow: 2px 2px black;
-    color: white;
-    font-size: 200%;
+    color: tan;
+    font-size: 300%;
     text-align: center;
     align-content: center;
     justify-content: space-around;
     display: flex;
-
-
-    /* font-variant: small-caps; */
-
-
-
-    /* font-size: 350%;
-    height: 100%;
-
-    box-sizing: none; */
+    padding: 0;
+    margin: 0;
+}
+.mainLogo:hover {
+    color: #6b2302;
+    text-decoration-color: #6b2302;
 }

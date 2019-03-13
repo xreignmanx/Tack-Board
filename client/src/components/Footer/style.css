@@ -7,4 +7,5 @@
         height: 15%;
         align-content: center;
         border-style: ridge;
+        display: flex;
     }

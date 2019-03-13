@@ -1,18 +1,20 @@
 import React from "react";
 import "./style.css";
 import TackItem from '../TackItem';
-import TackForm from '../TackForm';
-// import Login from '../Login';
+import TackList from '../TackList';
+// import TackForm from '../TackForm';
 
 
 class TackBoard extends React.Component {
     render() {
         return (
             <div className="tackboard">
-                {/* <TackItem 
+                <TackList  />
+                <TackItem 
                         data={{One: 'two'}}            
                 />
-                <TackForm /> */}
+            
+                {/* <TackForm /> */}
                             
             </div>
             )
